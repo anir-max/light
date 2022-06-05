@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style type="text/css">
+body{
+     margin:0;
+     padding:0;
+     background:#0a3b16;
+}
+ul{
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+   margin:0;
+   padding:0;
+   display:flex;
+}
+ul li{
+     list-style:none;
+     width:40px;
+     height:40px;
+     background:rgb(168, 26, 26);
+     border-radius:50%;
+     animation:a 1.6s ease-in-out infinite;
+}
+ul li:nth-child(1) 
+{
+  animation-delay:-1.4s;
+  background:#3adb09;
+  box-shadow:0px 0px 50px #FFFF00;
+}
+ul li:nth-child(2) 
+{
+  animation-delay:-1.2s;
+  background:#1013b9;
+  box-shadow:0px 0px 50px #FF1493;
+}
+ul li:nth-child(3) 
+{
+  animation-delay:-1s;
+  background:#ec0d05;
+  box-shadow:0px 0px 50px #00FF00;
+}
+ul li:nth-child(4) 
+{
+  animation-delay:-0.8s;
+  background:#d1fafa;
+  box-shadow:0px 0px 50px #00FFFF;
+}
+ul li:nth-child(5) 
+{
+  animation-delay:-0.6s;
+  background:#eff309;
+  box-shadow:0px 0px 50px #FF0000;
+}
+ul li:nth-child(6) 
+{
+  animation-delay:-0.4s;
+  background:#15d6dd;
+  box-shadow:0px 0px 50px #3333FF;
+}
+@keyframes a
+{
+  0%,40%,100%{
+             transform:scale(0.2);
+  }
+  20%{
+      transform:scale(1);
+  }
+}
+</style>
+</head>
+<body>
+<ul>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+</ul>
+</body>
+</html>
